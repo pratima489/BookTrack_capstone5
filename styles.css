@@ -1,0 +1,82 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #fff0f5;
+    color: #4b2e2e;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    color: #b03060;
+    text-align: center;
+  }
+  
+  a {
+    color: #b03060;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .book {
+    border: 1px solid #f8c8dc;
+    background-color: #fff8f9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(176, 48, 96, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .book:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 10px rgba(176, 48, 96, 0.15);
+  }
+  
+  img {
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #e6a5b5;
+    border-radius: 8px;
+    font-family: inherit;
+  }
+  
+  button {
+    background-color: #b03060;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #8b1c47;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form select {
+    width: auto;
+  }

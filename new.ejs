@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add New Book</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>➕ Add a New Book</h1>
+  <form action="/books" method="POST">
+    <label>Title:</label>
+    <input type="text" name="title" required>
+
+    <label>Author:</label>
+    <input type="text" name="author" required>
+
+    <label>Rating (1–10):</label>
+    <input type="number" name="rating" min="1" max="10" required>
+
+    <label>Notes:</label>
+    <textarea name="notes"></textarea>
+
+    <label>Date Read:</label>
+    <input type="date" name="date_read" required>
+
+    <button type="submit">Save Book</button>
+  </form>
+  <a href="/">← Back to Book List</a>
+</body>
+</html>
+
